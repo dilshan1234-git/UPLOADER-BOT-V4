@@ -39,7 +39,7 @@ class Config(object):
     
     DEF_WATER_MARK_FILE = "UploadLinkToFileBot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Dilshan:Dilcluster@dilcluster.dai05pm.mongodb.net/?retryWrites=true&w=majority&appName=Dilcluster")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "")
     
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
     
@@ -53,5 +53,5 @@ class Config(object):
     
     TG_MIN_FILE_SIZE = 2097152000
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Dilsaveit_bot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Dilrenamer_bot")
                                   
